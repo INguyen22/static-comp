@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid red;
-  }
+  } */
 
 .admin-button-section {
     display: flex;
@@ -66,6 +66,13 @@
 
 .content-container {
     background-color: lightgrey;
+    height: 100vh;
+}
+
+.card-info-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 8px 7px
 }
 
 .foward-button {
@@ -94,6 +101,40 @@
 .card-info-header {
     display: flex;
     justify-content: space-between;
+}
+
+.card-info-body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.recipeint {
+    font-size: 14px;
+}
+
+.date {
+    
+}
+
+.link {
+    
+}
+
+.playlist {
+    
+}
+
+.namePlaylist {
+    
+}
+
+.attachments {
+    
+}
+
+.numberAttachments {
+    
 }
 
 .view-container {
