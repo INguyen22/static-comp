@@ -4,171 +4,175 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Static Comp Option #1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Orbitron&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="header">
         <div class="admin-button-section">
             <button class="admin-button">
-                <img class="profile-icon" src="/" alt="ProfileIcon"> Admin Username
-                <i class="arrow down"></i>
+                <img class="profile-icon" src="/assets/user-icon3.png" alt="ProfileIcon"> Admin Username
+                <img class="down-arrow" src="/assets/down-arrow-icon.png" alt="downArrow">
             </button>
         </div>
         <section class="button-and-logo-container">
             <div class="btn-group">
-                <button class="button"> <img class="share-image" src="/" alt="shareIcon"> Shares</button>
-                <button class="button"> <img class="playlist-image" src="/" alt="playlistIcon"> Playlist</button>
-                <button class="button"> <img class="personal-image" src="/" alt="personalIcon"> Personal Videos</button>
+                <button class="button" id="shareButton"> <img class="share-image" src="assets/sharing-icon.png" alt="shareIcon"> Shares</button>
+                <button class="button" id="playlistButton"> <img class="playlist-image" src="/assets/playlist-icon.png" alt="playlistIcon"> Playlist</button>
+                <button class="button" id="personalVideoButton"> <img class="personal-image" src="/assets/user-icon2.png" alt="personalIcon"> Personal Videos</button>
             </div>
             <div class="logo">
-                <p>2Win! <img class="logo-image" src="/" alt="logo"></p>
+                <p>2Win! <img class="logo-image" src="/assets/logo-icon1.png" alt="logo"></p>
             </div>
         </section>
     </section>
     <section class="content-container">
         <h1>Shares</h1>
-        <section class="card-info" id="cardInfo1">
-            <section class="card-info-header" id="cardHeader1">
-                <button class="foward-button"><img src="/" alt="fowardArrowIcon"></button>
-                <div class="view=container">
-                    <p>Views</p>
-                    <p>02</p>
-                </div>
+        <section class="card-info-container">
+            <section class="card-info" id="cardInfo1">
+                <section class="card-info-header" id="cardHeader1">
+                    <button class="foward-button"><img class='foward-image' src="/assets/arrow-icon.png" alt="fowardArrowIcon"></button>
+                    <div class="view-container">
+                        <p class="view-text">Views</p>
+                        <p class="view-number">02</p>
+                    </div>
+                </section>
+                <section class="card-info-body">
+                    <p class="recipeint">Recipeint's NameHere</p>
+                    <p class="date">07/08/22</p>
+                    <p class="link">https://www.youtube.com/watch?v=faS-13i72qg</p>
+                    <p class="playlist">playlist</p>
+                    <p class="namePlaylist">Name of Playlist</p>
+                    <p class="attachments">Attachments</p>
+                    <p class="numberAttachments">04</p>
+                </section>
             </section>
-            <section class="card-info-body">
-                <p>Recipeint's NameHere</p>
-                <p>07/08/22</p>
-                <p>link</p>
-                <p>playlist</p>
-                <p>Name of Playlist</p>
-                <p>Attachments</p>
-                <p>04</p>
+            <section class="card-info" id="cardInfo2">
+                <section class="card-info-header" id="cardHeader2">
+                    <button class="foward-button"><img class='foward-image' src="/assets/arrow-icon.png" alt="fowardArrowIcon"></button>
+                    <div class="view-container">
+                        <p class="view-text">Views</p>
+                        <p class="view-number">02</p>
+                    </div>
+                </section>
+                <section class="card-info-body">
+                    <p class="recipeint">Recipeint's NameHere</p>
+                    <p class="date">07/08/22</p>
+                    <p class="link">https://www.youtube.com/watch?v=faS-13i72qg</p>
+                    <p class="playlist">playlist</p>
+                    <p class="namePlaylist">Name of Playlist</p>
+                    <p class="attachments">Attachments</p>
+                    <p class="numberAttachments">04</p>
+                </section>
             </section>
-        </section>
-        <section class="card-info" id="cardInfo2">
-            <section class="card-info-header" id="cardHeader2">
-                <button class="foward-button"><img src="/" alt="fowardArrowIcon"></button>
-                <div class="view=container">
-                    <p>Views</p>
-                    <p>02</p>
-                </div>
+            <section class="card-info" id="cardInfo3">
+                <section class="card-info-header" id="cardHeader3">
+                    <button class="foward-button"><img class='foward-image' src="/assets/arrow-icon.png" alt="fowardArrowIcon"></button>
+                    <div class="view-container">
+                        <p class="view-text">Views</p>
+                        <p class="view-number">02</p>
+                    </div>
+                </section>
+                <section class="card-info-body">
+                    <p class="recipeint">Recipeint's NameHere</p>
+                    <p class="date">07/08/22</p>
+                    <p class="link">https://www.youtube.com/watch?v=faS-13i72qg</p>
+                    <p class="playlist">playlist</p>
+                    <p class="namePlaylist">Name of Playlist</p>
+                    <p class="attachments">Attachments</p>
+                    <p class="numberAttachments">04</p>
+                </section>
             </section>
-            <section class="card-info-body">
-                <p>Recipeint's NameHere</p>
-                <p>07/08/22</p>
-                <p>link</p>
-                <p>playlist</p>
-                <p>Name of Playlist</p>
-                <p>Attachments</p>
-                <p>04</p>
+            <section class="card-info" id="cardInfo4">
+                <section class="card-info-header" id="cardHeader4">
+                    <button class="foward-button"><img class='foward-image' src="/assets/arrow-icon.png" alt="fowardArrowIcon"></button>
+                    <div class="view-container">
+                        <p class="view-text">Views</p>
+                        <p class="view-number">02</p>
+                    </div>
+                </section>
+                <section class="card-info-body">
+                    <p class="recipeint">Recipeint's NameHere</p>
+                    <p class="date">07/08/22</p>
+                    <p class="link">https://www.youtube.com/watch?v=faS-13i72qg</p>
+                    <p class="playlist">playlist</p>
+                    <p class="namePlaylist">Name of Playlist</p>
+                    <p class="attachments">Attachments</p>
+                    <p class="numberAttachments">04</p>
+                </section>
             </section>
-        </section>
-        <section class="card-info" id="cardInfo3">
-            <section class="card-info-header" id="cardHeader3">
-                <button class="foward-button"><img src="/" alt="fowardArrowIcon"></button>
-                <div class="view=container">
-                    <p>Views</p>
-                    <p>02</p>
-                </div>
+            <section class="card-info" id="cardInfo5">
+                <section class="card-info-header" id="cardHeader5">
+                    <button class="foward-button"><img class='foward-image' src="/assets/arrow-icon.png" alt="fowardArrowIcon"></button>
+                    <div class="view-container">
+                        <p class="view-text">Views</p>
+                        <p class="view-number">02</p>
+                    </div>
+                </section>
+                <section class="card-info-body">
+                    <p class="recipeint">Recipeint's NameHere</p>
+                    <p class="date">07/08/22</p>
+                    <p class="link">https://www.youtube.com/watch?v=faS-13i72qg</p>
+                    <p class="playlist">playlist</p>
+                    <p class="namePlaylist">Name of Playlist</p>
+                    <p class="attachments">Attachments</p>
+                    <p class="numberAttachments">04</p>
+                </section>
             </section>
-            <section class="card-info-body">
-                <p>Recipeint's NameHere</p>
-                <p>07/08/22</p>
-                <p>link</p>
-                <p>playlist</p>
-                <p>Name of Playlist</p>
-                <p>Attachments</p>
-                <p>04</p>
+            <section class="card-info" id="cardInfo6">
+                <section class="card-info-header" id="cardHeader6">
+                    <button class="foward-button"><img class='foward-image' src="/assets/arrow-icon.png" alt="fowardArrowIcon"></button>
+                    <div class="view-container">
+                        <p class="view-text">Views</p>
+                        <p class="view-number">02</p>
+                    </div>
+                </section>
+                <section class="card-info-body">
+                    <p class="recipeint">Recipeint's NameHere</p>
+                    <p class="date">07/08/22</p>
+                    <p class="link">https://www.youtube.com/watch?v=faS-13i72qg</p>
+                    <p class="playlist">playlist</p>
+                    <p class="namePlaylist">Name of Playlist</p>
+                    <p class="attachments">Attachments</p>
+                    <p class="numberAttachments">04</p>
+                </section>
             </section>
-        </section>
-        <section class="card-info" id="cardInfo4">
-            <section class="card-info-header" id="cardHeader4">
-                <button class="foward-button"><img src="/" alt="fowardArrowIcon"></button>
-                <div class="view=container">
-                    <p>Views</p>
-                    <p>02</p>
-                </div>
+            <section class="card-info" id="cardInfo7">
+                <section class="card-info-header" id="cardHeader7">
+                    <button class="foward-button"><img class='foward-image' src="/assets/arrow-icon.png" alt="fowardArrowIcon"></button>
+                    <div class="view-container">
+                        <p class="view-text">Views</p>
+                        <p class="view-number">04</p>
+                    </div>
+                </section>
+                <section class="card-info-body">
+                    <p class="recipeint">Recipeint's NameHere</p>
+                    <p class="date">07/08/22</p>
+                    <p class="link">https://www.youtube.com/watch?v=faS-13i72qg</p>
+                    <p class="playlist">playlist</p>
+                    <p class="namePlaylist">Name of Playlist</p>
+                    <p class="attachments">Attachments</p>
+                    <p class="numberAttachments">04</p>
+                </section>
             </section>
-            <section class="card-info-body">
-                <p>Recipeint's NameHere</p>
-                <p>07/08/22</p>
-                <p>link</p>
-                <p>playlist</p>
-                <p>Name of Playlist</p>
-                <p>Attachments</p>
-                <p>04</p>
-            </section>
-        </section>
-        <section class="card-info" id="cardInfo5">
-            <section class="card-info-header" id="cardHeader5">
-                <button class="foward-button"><img src="/" alt="fowardArrowIcon"></button>
-                <div class="view=container">
-                    <p>Views</p>
-                    <p>02</p>
-                </div>
-            </section>
-            <section class="card-info-body">
-                <p>Recipeint's NameHere</p>
-                <p>07/08/22</p>
-                <p>link</p>
-                <p>playlist</p>
-                <p>Name of Playlist</p>
-                <p>Attachments</p>
-                <p>04</p>
-            </section>
-        </section>
-        <section class="card-info" id="cardInfo6">
-            <section class="card-infr" id="cardHeader6">
-                <button class="foward-button"><img src="/" alt="fowardArrowIcon"></button>
-                <div class="view=container">
-                    <p>Views</p>
-                    <p>02</p>
-                </div>
-            </section>
-            <section class="card-info-body">
-                <p>Recipeint's NameHere</p>
-                <p>07/08/22</p>
-                <p>link</p>
-                <p>playlist</p>
-                <p>Name of Playlist</p>
-                <p>Attachments</p>
-                <p>04</p>
-            </section>
-        </section>
-        <section class="card-info" id="cardInfo7">
-            <section class="card-info-header" id="cardHeader7">
-                <button class="foward-button"><img src="/" alt="fowardArrowIcon"></button>
-                <div class="view=container">
-                    <p>Views</p>
-                    <p>04</p>
-                </div>
-            </section>
-            <section class="card-info-body">
-                <p>Recipeint's NameHere</p>
-                <p>07/08/22</p>
-                <p>link</p>
-                <p>playlist</p>
-                <p>Name of Playlist</p>
-                <p>Attachments</p>
-                <p>04</p>
-            </section>
-        </section>
-        <section class="card-info" id="cardInfo8">
-            <section class="card-info-header" id="cardHeader8">
-                <button class="foward-button"><img src="/" alt="fowardArrowIcon"></button>
-                <div class="view=container">
-                    <p>Views</p>
-                    <p>01</p>
-                </div>
-            </section>
-            <section class="card-info-body">
-                <p>Recipeint's NameHere</p>
-                <p>07/08/22</p>
-                <p>link</p>
-                <p>playlist</p>
-                <p>Name of Playlist</p>
-                <p>Attachments</p>
-                <p>04</p>
+            <section class="card-info" id="cardInfo8">
+                <section class="card-info-header" id="cardHeader8">
+                    <button class="foward-button"><img class='foward-image' src="/assets/arrow-icon.png" alt="fowardArrowIcon"></button>
+                    <div class="view-container">
+                        <p class="view-text">Views</p>
+                        <p class="view-number">01</p>
+                    </div>
+                </section>
+                <section class="card-info-body">
+                    <p class="recipeint">Recipeint's NameHere</p>
+                    <p class="date">07/08/22</p>
+                    <p class="link">https://www.youtube.com/watch?v=faS-13i72qg</p>
+                    <p class="playlist">playlist</p>
+                    <p class="namePlaylist">Name of Playlist</p>
+                    <p class="attachments">Attachments</p>
+                    <p class="numberAttachments">04</p>
+                </section>
             </section>
         </section>
     </section>    

@@ -1,0 +1,227 @@
+/* * {
+    border: 1px solid red;
+  } */
+
+  body {
+    background-color: gainsboro;
+    height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.admin-button-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: black;
+}
+
+.admin-button {
+    background-color: black;
+    color: lightskyblue;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-icon {
+    height: 15px;
+    width: 15px;
+}
+
+.down-arrow {
+    height: 12px;
+    width: 12px;
+}
+
+.button-and-logo-container {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.btn-group {
+    display: flex;
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#shareButton {
+    color: white;
+}
+
+.share-image {
+    height: 15px;
+    width: 15px;
+}
+
+#playlistButton {
+    color: grey;
+}
+
+.playlist-image {
+    height: 15px;
+    width: 15px;
+}
+
+#personalVideoButton {
+    color: grey;
+}
+
+.personal-image {
+    height: 15px;
+    width: 15px;
+}
+
+.logo {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.logo-image {
+    height: 35px;
+    width: 35px;
+}
+
+.card-info-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 8px 7px
+}
+
+.foward-button {
+    height: 45px;
+    width: 45px;
+    border-radius: 60%;
+    margin-left: 5px;
+}
+
+.foward-button:hover {
+    background-color: lightskyblue;
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+  }
+
+.foward-image {
+    height: 30px;
+    width: 30px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 365px;
+    width: 250px;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
+.card-info:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in
+  }
+
+.card-info-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info-body {
+    margin-left: 5px;
+    height: 280px
+}
+
+.recipeint {
+    font-size: 14px;
+}
+
+.date {
+    font-size: 11px;
+    color: gray;
+}
+
+.link {
+    background-color: lightgray;
+    height: 33px;
+    width: 230px;
+    margin-left: 5px;
+    font-size: 11px;
+}
+
+.playlist {
+    font-size: 13px;
+}
+
+.namePlaylist {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.attachments {
+    font-size: 13px;
+}
+
+.numberAttachments {
+    color: lightskyblue;
+    font-size: 27px;
+}
+
+.view-text {
+    color: white;
+}
+
+.view-number {
+    color: white;
+    font-size: 20px;
+}
+
+#cardHeader1 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep1.jpeg');
+    background-size: 250px 110px;
+}
+
+#cardHeader2 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep2.jpeg');
+    background-size: 250px 110px;
+}
+
+#cardHeader3 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep3.jpeg');
+    background-size: 250px 110px;
+}
+
+#cardHeader4 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep4.jpeg');
+    background-size: 250px 110px;
+}
+
+#cardHeader5 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep5.jpeg');
+    background-size: 250px 110px;
+}
+
+#cardHeader6 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep6.jpeg');
+    background-size: 250px 110px;
+}
+
+#cardHeader7 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep7.jpeg');
+    background-size: 250px 110px;
+}
+
+#cardHeader8 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep8.jpeg');
+    background-size: 250px 110px;
+}
+
