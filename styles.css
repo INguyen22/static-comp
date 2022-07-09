@@ -2,6 +2,12 @@
     border: 1px solid red;
   } */
 
+  body {
+    background-color: gainsboro;
+    height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 .admin-button-section {
     display: flex;
     justify-content: flex-end;
@@ -13,6 +19,7 @@
     background-color: black;
     color: lightskyblue;
     border: none;
+    cursor: pointer;
 }
 
 .profile-icon {
@@ -20,9 +27,9 @@
     width: 15px;
 }
 
-.logo-image {
-    height: 35px;
-    width: 35px;
+.down-arrow {
+    height: 12px;
+    width: 12px;
 }
 
 .button-and-logo-container {
@@ -33,13 +40,14 @@
 
 .btn-group {
     display: flex;
-    padding-top: 40px;
+    padding-top: 80px;
     margin-bottom: 20px;
 }
 
 .button {
     background-color: black;
     border: none;
+    cursor: pointer;
 }
 
 #shareButton {
@@ -73,12 +81,13 @@
     display: flex;
     color: white;
     font-size: 25px;
-    margin-top: 15px;
+    margin-top: 40px;
+    font-weight: bold;
 }
 
-.content-container {
-    background-color: gainsboro;
-    height: 100vh;
+.logo-image {
+    height: 35px;
+    width: 35px;
 }
 
 .card-info-container {
@@ -94,6 +103,13 @@
     margin-left: 5px;
 }
 
+.foward-button:hover {
+    background-color: lightskyblue;
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+  }
+
 .foward-image {
     height: 30px;
     width: 30px;
@@ -102,13 +118,18 @@
 .card-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: white;
-    height: 350px;
-    width: 200px;
+    height: 365px;
+    width: 250px;
     border-width: 2px;
     border-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
+
+.card-info:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in
+  }
 
 .card-info-header {
     display: flex;
@@ -116,6 +137,7 @@
 }
 
 .card-info-body {
+    margin-left: 5px;
     height: 280px
 }
 
@@ -130,9 +152,10 @@
 
 .link {
     background-color: lightgray;
-    height: 40px;
-    width: 190px;
+    height: 33px;
+    width: 230px;
     margin-left: 5px;
+    font-size: 11px;
 }
 
 .playlist {
@@ -141,6 +164,7 @@
 
 .namePlaylist {
     font-size: 14px;
+    font-weight: bold;
 }
 
 .attachments {
@@ -149,14 +173,8 @@
 
 .numberAttachments {
     color: lightskyblue;
-    font-size: 30px;
+    font-size: 27px;
 }
-
-/* .view-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-} */
 
 .view-text {
     color: white;
@@ -169,41 +187,41 @@
 
 #cardHeader1 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep1.jpeg');
-    background-size: 200px 100px;
+    background-size: 250px 110px;
 }
 
 #cardHeader2 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep2.jpeg');
-    background-size: 200px 100px;
+    background-size: 250px 110px;
 }
 
 #cardHeader3 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep3.jpeg');
-    background-size: 200px 100px;
+    background-size: 250px 110px;
 }
 
 #cardHeader4 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep4.jpeg');
-    background-size: 200px 100px;
+    background-size: 250px 110px;
 }
 
 #cardHeader5 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep5.jpeg');
-    background-size: 200px 100px;
+    background-size: 250px 110px;
 }
 
 #cardHeader6 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep6.jpeg');
-    background-size: 200px 100px;
+    background-size: 250px 110px;
 }
 
 #cardHeader7 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep7.jpeg');
-    background-size: 200px 100px;
+    background-size: 250px 110px;
 }
 
 #cardHeader8 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep8.jpeg');
-    background-size: 200px 100px;
+    background-size: 250px 110px;
 }
 
