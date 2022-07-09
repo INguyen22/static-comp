@@ -1,0 +1,137 @@
+* {
+    border: 1px solid red;
+  }
+
+.admin-button-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: black;
+}
+
+.admin-button {
+    background-color: black;
+    color: lightskyblue;
+}
+
+.button-and-logo-container {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.btn-group {
+    display: flex;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: black;
+}
+
+#shareButton {
+    color: white;
+}
+
+.share-image {
+    height: 15px;
+    width: 15px;
+}
+
+#playlistButton {
+    color: grey;
+}
+
+.playlist-image {
+    height: 15px;
+    width: 15px;
+}
+
+#personalVideoButton {
+    color: grey;
+}
+
+.personal-image {
+    height: 15px;
+    width: 15px;
+}
+
+.logo {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.content-container {
+    background-color: lightgrey;
+}
+
+.foward-button {
+    height: 45px;
+    width: 45px;
+    border-radius: 60%;
+    margin-left: 5px;
+}
+
+.foward-image {
+    height: 30px;
+    width: 30px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    height: 250px;
+    width: 200px;
+    border-width: 2px;
+    border-color: black;
+}
+
+.card-info-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+#cardHeader1 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep1.jpeg');;
+}
+
+#cardHeader2 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep2.jpeg');;
+}
+
+#cardHeader3 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep3.jpeg');;
+}
+
+#cardHeader4 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep4.jpeg');;
+}
+
+#cardHeader5 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep5.jpeg');;
+}
+
+#cardHeader6 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep6.jpeg');;
+}
+
+#cardHeader7 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep7.jpeg');;
+}
+
+#cardHeader8 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep8.jpeg');;
+}
+
