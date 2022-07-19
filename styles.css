@@ -1,11 +1,9 @@
-/* * {
-    border: 1px solid red;
-  } */
 
-  body {
+body {
     background-color: gainsboro;
     height: 100vh;
     font-family: 'Nunito Sans', sans-serif;
+    margin: 0px;
 }
 
 .admin-button-section {
@@ -20,16 +18,12 @@
     color: lightskyblue;
     border: none;
     cursor: pointer;
+    margin-right: 5px;
 }
 
-.profile-icon {
+.profile-icon, .down-arrow {
     height: 15px;
     width: 15px;
-}
-
-.down-arrow {
-    height: 12px;
-    width: 12px;
 }
 
 .button-and-logo-container {
@@ -48,40 +42,29 @@
     background-color: black;
     border: none;
     cursor: pointer;
+    height: 25px;
+    width: 180px;
+    font-size: 18px;
 }
 
 #shareButton {
     color: white;
 }
 
-.share-image {
+.share-image, .playlist-image, .personal-image  {
     height: 15px;
     width: 15px;
 }
 
-#playlistButton {
+#playlistButton, #personalVideoButton {
     color: grey;
-}
-
-.playlist-image {
-    height: 15px;
-    width: 15px;
-}
-
-#personalVideoButton {
-    color: grey;
-}
-
-.personal-image {
-    height: 15px;
-    width: 15px;
 }
 
 .logo {
     display: flex;
     color: white;
     font-size: 25px;
-    margin-top: 40px;
+    margin-top: 0px;
     font-weight: bold;
 }
 
@@ -90,10 +73,23 @@
     width: 35px;
 }
 
+.website-name {
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    margin-top: 60px;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
 .card-info-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 8px 7px
+    gap: 8px 7px;
+    justify-content: space-around;
 }
 
 .foward-button {
@@ -137,17 +133,21 @@
 }
 
 .card-info-body {
+    display: flex;
+    flex-direction: column;
     margin-left: 5px;
     height: 280px
 }
 
 .recipeint {
     font-size: 14px;
+    margin-bottom: 0px;
 }
 
 .date {
     font-size: 11px;
     color: gray;
+    margin-top: 0px;
 }
 
 .link {
@@ -158,70 +158,73 @@
     font-size: 11px;
 }
 
-.playlist {
+.playlist, .attachments {
     font-size: 13px;
+    margin-bottom: 0px;
 }
 
 .namePlaylist {
     font-size: 14px;
     font-weight: bold;
-}
-
-.attachments {
-    font-size: 13px;
+    margin-top: 0px;
 }
 
 .numberAttachments {
     color: lightskyblue;
     font-size: 27px;
+    margin-top: 0px;
 }
 
 .view-text {
     color: white;
+    margin-bottom: 0px;
+    margin-top: 5px;
 }
 
 .view-number {
     color: white;
     font-size: 20px;
+    margin-top: 0px;
+    padding-bottom: 40px;
 }
 
 #cardHeader1 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep1.jpeg');
-    background-size: 250px 110px;
+    background-size: 255px 115px;
 }
 
 #cardHeader2 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep2.jpeg');
-    background-size: 250px 110px;
+    background-size: 255px 115px;
 }
 
 #cardHeader3 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep3.jpeg');
-    background-size: 250px 110px;
+    background-size: 255px 115px;
 }
 
 #cardHeader4 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep4.jpeg');
-    background-size: 250px 110px;
+    background-size: 255px 115px;
 }
 
 #cardHeader5 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep5.jpeg');
-    background-size: 250px 110px;
+    background-size: 255px 115px;
 }
 
 #cardHeader6 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep6.jpeg');
-    background-size: 250px 110px;
+    background-size: 255px 115px;
 }
 
 #cardHeader7 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep7.jpeg');
-    background-size: 250px 110px;
+    background-size: 255px 115px;
 }
 
 #cardHeader8 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep8.jpeg');
-    background-size: 250px 110px;
+    background-size: 255px 115px;
 }
 
