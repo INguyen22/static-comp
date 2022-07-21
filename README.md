@@ -20,6 +20,7 @@ https://inguyen22.github.io/static-comp/
 - HTML
 - CSS
 
+
 ## Future Extentions
 - Improve the grid layout 
 - Have the arrow icons to be transparent in the center similar to the mock website. 
