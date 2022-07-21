@@ -189,42 +189,42 @@ h1 {
 }
 
 #cardHeader1 {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep1.jpeg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('assets/peep1.jpeg');
     background-size: 255px 115px;
 }
 
 #cardHeader2 {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep2.jpeg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('assets/peep2.jpeg');
     background-size: 255px 115px;
 }
 
 #cardHeader3 {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep3.jpeg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('assets/peep3.jpeg');
     background-size: 255px 115px;
 }
 
 #cardHeader4 {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep4.jpeg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('assets/peep4.jpeg');
     background-size: 255px 115px;
 }
 
 #cardHeader5 {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep5.jpeg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('assets/peep5.jpeg');
     background-size: 255px 115px;
 }
 
 #cardHeader6 {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep6.jpeg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('assets/peep6.jpeg');
     background-size: 255px 115px;
 }
 
 #cardHeader7 {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep7.jpeg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('assets/peep7.jpeg');
     background-size: 255px 115px;
 }
 
 #cardHeader8 {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/assets/peep8.jpeg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('assets/peep8.jpeg');
     background-size: 255px 115px;
 }
 
