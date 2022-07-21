@@ -14,7 +14,7 @@ Replicate a mock website
 ![static-comp-results](./assets/Screen%20Shot%202022-07-19%20at%202.41.49%20PM.png)
 
 ## GitHub Pages
-![github-pages](https://inguyen22.github.io/static-comp/)
+https://inguyen22.github.io/static-comp/
 
 ## Technologies Used
 - HTML
